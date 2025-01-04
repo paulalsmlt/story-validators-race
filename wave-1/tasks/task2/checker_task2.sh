@@ -139,10 +139,5 @@ fi
 
 checked_timestamp=$(date +%s)
 echo "Paste the content into data.json
-{
-  \"cosmos_rpc\": \"$RPC_URL\",
-  \"evm_json_rpc\": \"$EVM_RPC_URL\",
-  \"tests\": \"$tests_status\",
-  \"timestamp\": $checked_timestamp
-}
+
 "
